@@ -1,4 +1,9 @@
-public boolean xyBalance(String str) {
+package practicing_medium_and_complex_algorithms;
+
+
+public class xyBalance{ 
+
+public boolean xyBalance_(String str) {
 
 
   boolean result=true;; 
@@ -14,4 +19,5 @@ public boolean xyBalance(String str) {
 }
 
 return result;
+}
 }

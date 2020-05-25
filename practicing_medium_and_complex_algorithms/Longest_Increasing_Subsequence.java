@@ -1,5 +1,10 @@
-* A Naive Java Program for LIS Implementation */
-class LIS { 
+package practicing_medium_and_complex_algorithms;
+/* A Naive Java Program for LIS Implementation */
+
+
+
+
+public class Longest_Increasing_Subsequence { 
     static int max_ref; // stores the LIS 
   
     /* To make use of recursive calls, this function must return 

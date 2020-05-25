@@ -1,4 +1,13 @@
-public String withoutString(String base, String remove) {
+package practicing_medium_and_complex_algorithms;
+
+
+public class withoutString {
+	
+public withoutString()
+{}
+
+public String withoutString_(String base, String remove) 
+{
  //Given two strings, base and remove, 
  //return a version of the base string 
  //where all instances of the remove string 
@@ -11,4 +20,5 @@ public String withoutString(String base, String remove) {
   base = base.replaceAll(remove.toUpperCase(), "");
   return base.replaceAll(remove, "");
   
+}
 }

@@ -1,3 +1,10 @@
+package practicing_medium_and_complex_algorithms;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class wordLenusingMap{
+
 public Map<String, Integer> wordLen(String[] strings) 
 {
   
@@ -11,7 +18,7 @@ public Map<String, Integer> wordLen(String[] strings)
   
   */
   
-  Map<String, Integer> map= new HashMap();
+  Map<String, Integer> map= new HashMap<String, Integer>();
   
   for ( int i = 0; i < strings.length; i++ ) 
   {
@@ -28,4 +35,5 @@ public Map<String, Integer> wordLen(String[] strings)
   return map;
  
   
+}
 }
